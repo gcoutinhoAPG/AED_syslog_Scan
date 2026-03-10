@@ -1,28 +1,44 @@
-# AED_syslog_Scan
-# README #
-#
-#Built-in keywords:
-#Software Component .* is 'Crashing
-#sync failed due to error
-#crash
-#fail
-#error
-#warning
-#reboot
-#invalid
-#interrupt
-#leak
-#timeout
-#blinky
-#ipmi
-#file_system
-#database
-#mce
-#
+AED_syslog_Scan for diag packages
+
+Built-in keywords:
+
+Software Component .* is 'Crashing
+  
+sync failed due to error
+
+crash
+
+fail
+
+error
+
+warning
+
+reboot
+
+invalid
+
+interrupt
+
+leak
+
+timeout
+
+blinky
+
+ipmi
+
+file_system
+
+database
+
+mce
+
+
 # You can excluse or include keywords
-#
+
 # Usage examples:
-#
+
 # Basic run (only built-in keywords)
 python AED_Syslog_Scan_v1.py --diag-path /path/to/diag_package
 #
